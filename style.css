@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("./backgroundElement.jpg") center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid rgb(121, 194, 228);
+}
+.mail i{
+    /* position: absolute; */
+    color: whitesmoke;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#container input{
+    border: none;
+    outline: none;
+    background: none;
+    margin: 20px 5px;
+    padding: 10px;
+    
+    color: whitesmoke;
+}
+#btn{
+    position: relative;
+    padding: 10px 20px ;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    background: rgba(60, 147, 197, 0.1);
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 0 0 10px rgb(181, 217, 247) ,
+        0 0 40px rgb(181, 217, 247), 
+        0 0 80px rgb(181, 217, 247);
+    transition: all 0.4s;
+    transition-delay: 1s;
+    background: rgb(159, 207, 247);
+    color: black;
+}
+
+
+
+
+
+#btn span{
+    position: absolute;
+    display: block;
+}
+#btn span:nth-child(1){
+    height: 3px;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(90deg, transparent , rgb(185, 233, 255));
+}
+#btn:hover span:nth-child(1){
+    left: 100%;
+    transition: all 0.4s;
+}
+
+#btn span:nth-child(2){
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    right: -100%;
+    background: linear-gradient(270deg, transparent , rgb(185, 233, 255));
+}
+#btn:hover span:nth-child(2){
+    right: 100%;
+    transition: all 0.4s;
+    transition-delay: 0.50s;
+}
+
+#btn span:nth-child(3){
+    height: 100%;
+    width: 3px;
+    right: 0;
+    top: -100%;
+    background: linear-gradient(270deg, transparent , rgb(185, 233, 255));
+}
+#btn:hover span:nth-child(3){
+    top: 100%;
+    transition: all 0.4s;
+    transition-delay: 0.25s;
+}
+
+#btn span:nth-child(4){
+    height: 100%;
+    width: 3px;
+    left: 0;
+    bottom: -100%;
+    background: linear-gradient(270deg, transparent , rgb(185, 233, 255));
+}
+#btn:hover span:nth-child(4){
+    bottom: 100%;
+    transition: all 0.4s;
+    transition-delay: 0.75s;
+}
+
+
+
+.email{
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid cyan;
+    color: white;
+    height: 50px;
+}
+.password{
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid cyan;
+    color: white;
+    height: 50px;
+    margin-bottom: 20px;
+}
