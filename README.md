@@ -76,10 +76,25 @@
 </div>
 
 
+🎯 Current Status 
+```javascript
+const life = {
+  status: "coding",
+  nextBreak: null,
+  caffeineLevel: "dangerously high",
+  unreadSlackMessages: Infinity
+}
+```
+| 🎨 My Hobbies | 💡 Fun Facts |
+|:---|:---|
+| • Coding<br>• Writing code<br>• Thinking about code<br>• Debugging code I wrote while thinking about code<br>• Did I mention coding? | • My idea of "taking a break" is switching from frontend to backend<br>• I have more GitHub repos than friends (the repos are better maintained)<br>• Stack Overflow is my second browser homepage<br>• I speak fluent TypeScript and broken English |
+
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GlaDrancE&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=GlaDrancE&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=GlaDrancE&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" /> <br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GlaDrancE&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
 </div>
+
 
 ###
 
